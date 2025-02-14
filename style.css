@@ -1,0 +1,30 @@
+/* Art Page Background */
+.art-bg {
+    background: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+/* Text Style */
+p {
+    font-size: 8px;
+    line-height: 8px;
+    text-align: justify;
+    background: url('princes.png') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    max-width: 100%;
+    max-height: 100%;
+    white-space: normal;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
